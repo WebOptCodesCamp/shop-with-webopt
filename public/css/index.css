@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+
+.sidebar{
+    height: 100%;
+    width: 18%;
+    background: white;
+    border-right: 1px solid rgb(194, 194, 181)
+}
+
+.content{
+    height: 100%;
+    background: lightgray;
+    width: 100%;
+}
+
+.listmenu{
+    height: 90%;
+    width: 90%;
+    margin: 60px 5%;
+    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex div img{
+    width: 30px;
+    height: 30px;
+}
+
+.flex div h4{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.flex:hover{
+    background: rgb(84, 84, 143);
+    color: white;
+    padding: 6px;
+}
+
+.head1{
+    background: white;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.head2{
+    background: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head1 div img{
+    width: 50px;
+    height: 30px;
+    margin: 4px 12px;
+}
+
+.head1 div h4{
+    margin-top: 12px;
+}
+.flex{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+.inputarea{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 320px;
+    margin-left: 30px;
+    padding: 4px;
+}
+
+#area{
+    width: 80%;
+    border: 0;
+    outline: none;
+    color: green;
+}
+
+.inputarea img{
+    width: 20px;
+    height: 20px;
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid rgb(33, 33, 68);
+    margin-right: 50px;
+}
+
+#productarea{
+    width: 100%;
+    height: 100%;
+}
+
+.aside{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.export{
+    background: whitesmoke;
+    padding: 4px 12px;
+    color: grey;
+    border: 4px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.export img{
+    width: 20px;
+    height: 15px;
+    margin-right: 4px;
+}
+
+.add{
+    background: blue;
+    color: white;
+    padding: 8px 16px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.buttonflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+
+#productbody{
+    width: 90%;
+    margin: 12px 5%;
+    background: white;
+    height: 80%;
+    border-radius: 12px;
+    overflow-y: scroll;
+    padding-bottom: 15px;
+}
+#productbody::-webkit-scrollbar{
+    display: none;
+}
+.productbodyhead{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.productbodyhead input{
+    width: 350px;
+    padding: 6px 12px;
+    margin-left: 20px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+}
+
+#select{
+    width: 250px;
+    padding: 6px 12px;
+    border: 1px solid lightgray;
+    outline: none;
+    margin-right: 30px;
+}
+hr{
+    margin-top: 12px;
+}
+
+#proditemsarea{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    overflow-y: scroll;
+
+}
+#productitemsarea::-webkit-scrollbar{
+    display: none;
+}
+
+.prodcard{
+    width: 180px;
+    height: 160px;
+    background: whitesmoke;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+}
+
+#addproductbody{
+    width: 60%;
+    height: 70%;
+    background: white;
+    border-radius: 12px;
+    margin: 12px 20%;
+    display: none;
+    padding: 30px 20px;
+}
+
+#productname{
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 6px 16px;
+    margin-top: 12px;
+    width: 250px;
+}
+
+.prodcard img{ 
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+label{
+    margin-top: 15px;
+}
+
+#description{
+    border: 1px solid lightgray;
+    width: 300px;
+    outline: none;
+}
+
+#images{
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+
+}
+
+.imagebox{
+    width: 120px;
+    height: 40px;
+}
+
+.prodcard h3{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+}
+
+.prodcard p{
+    margin-top: 12px;
+font-size: 15px;
+    font-weight: 900;
+    margin-left: 12px;
+    color: rgb(17, 65, 17);
+
+}
+
+.prodcard p span{
+    color: red;
+}
+
+.asideprod{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#price{
+    width: 250px;
+    border: 1px solid lightgray;
+    padding: 4px 16px;
+    outline: none;
+    
+}
+
+
+
+.buttonarea{
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.buttonarea button{
+    background: rgb(15, 15, 82);
+    border: 4px solid rgb(15, 15, 82);
+    outline: none;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addprod1{
+    display: none;
+}
+
+#sellerarea,#transaction,#orders,#statistics{
+    width: 100%;
+    background: lightgray;
+    height: 100%;
+    display: none;
+}
+
+.addsellerbtn{
+    background: blue;
+    color: white;
+    padding: 4px 16px;
+    border: 4px solid blue;
+    border-radius: 5px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#listofsellers{
+    width: 90%;
+    margin: 12px 5%;
+    background: white;
+    border-radius: 12px;
+    height: 80%;
+    padding: 0px;
+    overflow-y: scroll;
+
+}
+#listofsellers::-webkit-scrollbar{
+    display: none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 0;
+}
+th{
+    padding: 15px 30px;
+    background: rgb(10, 10, 75);
+    color: white ;
+    
+}
+#addnewseller{
+    width: 60%;
+    background: white;
+    border-radius: 18px;
+    padding-top:60px ;
+    height: 60%;
+    display: none;
+    margin: 12px 20%;
+}
+
+#addnewseller h4{
+    color: green;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#addnewseller h4 span{
+    color: yellow;
+}
+
+
+
+#firstname,#lastname,#phone,#location,#email,#address{
+    width: 200px;
+    padding: 4px 12px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+#myselect{
+    padding: 4px 8px;
+    outline: none;
+    margin-right: 30px;
+}
+
+.end{
+    display: flex;
+    justify-content: end;
+    margin: 30px 30px;
+}
+
+.end button{
+    background: rgb(12, 12, 82);
+    border: 4px solid rgb(12, 12, 82);
+    color: white;
+    padding: 4px 14px;
+    border-radius: 5px;
+}
+
+#transaction h4{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#asidetrans{
+    display: flex;
+    width: 100%;
+    padding: 12px 2%;
+    margin-top: 12px;
+}
+
+#firsttrans{
+    width: 65%;
+    height: 480px;
+    background: white;
+    border-radius: 12px;
+    overflow-y: scroll;
+}
+
+#firsttrans::-webkit-scrollbar{
+    display: none;
+}
+#sectrans{
+width: 30%;
+background: white;
+height: 480px;
+border-radius: 12px;
+margin-left: 2%;
+}
+
+#search-item{
+    width: 250px;
+    padding: 6px 16px;
+    outline: none;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.makeaside{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dateinput{
+    width: 100px;
+    padding: 4px 16px;
+    margin-right: 30px;
+    border: 1px solid lightgray;
+}
+
+.th,#th{
+    padding: 4px 16px;
+    background: white;
+    color: black;
+    font-weight: 50;
+    font-family: Courier, monospace;
+}
+
+
+.summary-txt{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.supp{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.suppname{
+    font-weight: 50;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+#orderscontent{
+
+    
+    
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 100%;
+    height: 540px;
+    padding-bottom: 20px;
+    
+}
+#orderscontent::-webkit-scrollbar{
+    margin-bottom: 50px;
+    display: block;
+}
+
+.statusview{
+    width: 95%;
+    margin: 15px 2.5%;
+    background: white;
+    border-radius: 12px;
+    max-height: 520px;
+    min-height: 520px;
+    overflow-y: scroll;
+    flex-shrink: none;
+
+}
+.statusview::-webkit-scrollbar{
+    display: none;
+}
+
+.asideorders{
+    display: flex;
+    justify-content: space-between;
+}
+
+#changestatus{
+    padding: 4px 12px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.ordershr{
+    width: 90%;
+    margin: 15px 5%;
+    border: 1px solid lightgray;
+}
+
+.flexordersbox{
+    display: flex;
+    align-items: center;
+}
+.flexordersbox div{
+    width: 300px;
+    height: 150px;
+    margin: 6px 20px;
+}
+
+.fleximgdet{
+    display: flex;
+}
+.profile1{
+    border-radius: 50%;
+}
+
+.orderstable{
+    width: 100%;
+}
+#table3{
+    width: 70%;
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+
+.th1{
+    padding: 4px 6px;
+    color: lightgray;
+    border: 1px solid lightgray;
+    background: transparent;
+    font-size: 14px;
+    width: 150px;
+}
+
+.table-img{
+    width: 100px;
+    height: 60px;
+    margin: 12px 8px;
+}
+.table-title{
+    margin-bottom: 30px;
+    color: rgb(11, 78, 11);
+    font-style: bold;
+    font-weight: 900;
+}
+.savechanges{
+    background: blue;
+    color: white;
+    border: 4px solid blue;
+    border-radius: 5px;
+    padding: 2px 15px;
+    margin: 12px 16px;
+}
+
+.dashboard-txt{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.asidesummary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.boxaround{
+    width: 250px;
+    background: white;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.boxaround div{
+    margin-left: 20px;
+}
+#statistics{
+    background: rgba(75, 123, 133, 0.5);
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    padding-bottom: 60px;
+}
+
+.canva{
+    background: rgb(11, 11, 63);
+    border-radius: 12px;
+    border: 2px solid rgb(11, 11, 63);
+    margin-left: 30px;
+}

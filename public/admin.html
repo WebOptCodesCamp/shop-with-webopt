@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wholesale + ecormmerce website</title>
+</head>
+<link rel="stylesheet" href="./css/index.css">
+<body>
+    <div class="main">
+
+<div class="sidebar">
+    <header class="head1">
+        <div><img src="icons/icons8-home-24.png" alt=""></div>
+        <div><h4>ADMIN</h4></div>
+    </header>
+    <hr>
+
+    <div class="listmenu">
+        <div class="flex" onclick="showstatistics()">
+            <div><img src="icons/icons8-graph-50.png" alt=""></div>
+            <div><h4>statistics</h4></div>
+        </div>
+        <div class="flex" onclick="showproducts()">
+            <div><img src="icons/icons8-product-30 (2).png" alt=""></div>
+            <div><h4>products</h4></div>
+        </div>
+        <div class="flex" onclick="showtransaction()">
+            <div><img src="icons/icons8-transaction-48.png" alt=""></div>
+            <div><h4>Transactions</h4></div>
+        </div>
+
+        <div class="flex" onclick="showsellers()">
+            <div><img src="icons/icons8-customer-30.png" alt=""></div>
+            <div><h4>Sellers</h4></div>
+        </div>
+        <div class="flex" onclick="showorders()">
+            <div><img src="icons/icons8-cart-30.png" alt=""></div>
+            <div><h4>Orders</h4></div>
+        </div>
+
+
+        <div class="flex">
+            <div><img src="icons/icons8-setting-50.png" alt=""></div>
+            <div><h4>Settings</h4></div>
+        </div>
+
+
+
+
+    </div>
+</div>
+<div class="content" id="content">
+
+    <header class="head2">
+    <div>
+        <div class="inputarea">
+            <img src="icons/icons8-search-30 (1) (1).png" alt="">
+            <input type="text" id="area" placeholder="Search for any data">
+        </div>
+    </div>
+    <div style="padding-right: 25px;">
+        <img src="images/pexels-photo-1005417.jpeg" alt="" class="profile">
+        <img src="icons/icons8-menu-30.png" alt="" style="margin-right: 30px; cursor: pointer;">
+    </div>
+    </header>
+    <div id="statistics">
+        <div>
+        <h4 class="dashboard-txt">Dashboard</h4>
+
+        </div>
+
+        <div class="asidesummary">
+            <div class="boxaround">
+                <div style="width: 25px; height: 25px;border-radius: 50%;background: orange;color: white;text-align: center;font-family: monospace;padding: 4px;"><span style="margin-top: 12px;">KSH</span></div>
+                <div>
+  <h4 style="color: lightgray;">Total Sales</h4><br>
+  <p>789,906</p>
+                </div>
+            </div>
+            <div class="boxaround">
+                <div>
+                    <img src="./icons/icons8-cart-30.png" style="width: 35px ; height: 35px; border-radius: 50%;" alt="">
+                </div>
+                <div>
+                    <h4 style="color: lightgray;">Total Orders</h4><br>
+                    <p>789,456</p>
+                </div>
+            </div>
+            <div class="boxaround" style="margin-right: 30px;">
+                <div>
+                    <img src="./icons/icons8-customer-30.png" style="width: 25px ; height: 25px;" alt="">
+                </div>
+                <div>
+                    <h4  style="color: lightgray;">Total Sellers</h4><br>
+                    <p>890</p>
+                </div>
+            </div>
+        </div>
+         <h5 style="text-align: center; font-size: 18px; margin-top: 30px; color: rgb(13, 75, 41);">Data Visualization</h5>
+        <div class="asidesummary" style="flex-wrap: wrap;">
+    <div class="canva">
+        <canvas height="250" width="450"></canvas>
+    </div>
+        </div>
+
+        <table id="table7">
+
+            
+        </table>
+    </div>
+    <div id="orders">
+ <h4 style="margin-top: 30px; margin-left: 35px;">Orders Details</h4>
+
+ <div id="orderscontent">
+
+   
+ </div>
+    </div>
+    <div id="transaction">
+      <h4>All Transactions</h4>
+      <div id="asidetrans">
+        <div id="firsttrans">
+            <div class="makeaside">
+                <input type="text" placeholder="search" id="search-item">
+                <div style="margin-top: 20px;">
+                    <input type="date" name="date" id="dateinput">
+                </div>
+
+            </div>
+            <hr>
+            <table id="table2">
+             <th class="th">Transaction ID</th>
+             <th class="th">Paid</th>
+             <th class="th">Method</th>
+             <th class="th">Created</th>
+             <th class="th">Actions</th>
+            </table>
+
+
+        </div>
+        <div id="sectrans">
+  <h5 class="summary-txt">-------------Summary------------</h5>
+ 
+<div>
+    <h4 class="supp">Supplier:
+        <br>
+        <span class="suppname">Monse Omar</span>
+    </h4>
+   
+</div>
+
+<div>
+    <h4 class="supp">Date:
+        <br>
+        <span class="suppname">March 5TH, 2024</span>
+    </h4>
+   
+</div>
+<div>
+    <h4 class="supp">Billing Address:
+        <br>
+        <span class="suppname">1901 ukunda Cir. shilow, diani 80400</span>
+    </h4>
+   
+</div>
+<div>
+    <h4 class="supp">VAT ID:
+        <br>
+        <span class="suppname">235678941</span>
+    </h4>
+   
+</div>
+<div>
+    <h4 class="supp">Email:
+        <br>
+        <span class="suppname">supportwebopt@gmail.com</span>
+    </h4>
+   
+</div>
+<div class="flex" >
+    <h4 style="color: blue;">Paid</h4>
+    <h4 style="margin-right: 20px; color: red;">ksh7890.00</h4>
+</div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+  <div id="sellerarea">
+    <div class="aside">
+        <div><h4 id="prodtitle" style="margin-left: 30px;">Product lists</h4></div>
+        <div>
+            
+                
+                <button class="addsellerbtn" onclick="hidelist()">+ Add Seller</button>
+
+            
+           
+        </div>
+    </div>
+    <div id="addnewseller">
+        <h4>New <span>Seller</span></h4>
+        <form>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="margin-left: 30px;">
+                <br>
+                <label for="">
+                    Enter sellers firstname
+                </label>
+                <br>
+                <input type="text" placeholder="Enter the sellers name" id="firstname" required>
+            </div>
+            <div style="margin-right: 20px;">
+                <br>
+                <label for="">
+                    Enter sellers lastname
+                </label>
+                <br>
+                <input type="text" placeholder="Enter the lastname" id="lastname" required>
+            </div>
+            
+
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="margin-left: 30px;">
+                <br>
+                <label for="">
+                    Enter sellers Location
+                </label>
+                <br>
+                <input type="text" placeholder="Enter the sellers location" id="location" required>
+            </div>
+            <div style="margin-right: 20px;">
+                <br>
+                <label for="">
+                    Enter sellers phone number
+                </label>
+                <br>
+                <input type="text" placeholder="Enter the phone number" id="phone" required>
+            </div>
+            
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="margin-left: 30px;">
+                <br>
+                <label for="">
+                    Enter sellers address
+                </label>
+                <br>
+                <input type="text" placeholder="Enter the sellers address" id="address" required>
+            </div>
+            <div style="margin-right: 20px;">
+                <br>
+                <label for="">
+                    Enter sellers email
+                </label>
+                <br>
+                <input type="email" placeholder="Enter the email" id="email" required>
+                <br>
+                
+            </div>
+            <div>
+                <br>
+                <label for="">Gender</label>
+                <br>
+                <select name="slt" id="myselect">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            
+
+        </div>
+        <div class="end">
+            <button type="submit" id="saveseller">Submit & save</button>
+        </div>
+        </form>
+    </div>
+    <div id="listofsellers">
+    <table id="table1">
+        <tr>
+            <th style="border-top-left-radius: 15px;">Firstname</th>
+            <th>Lastname</th>
+            <th>Location</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Gender </th>
+            <th style="border-top-right-radius: 15px;">Email</th>
+        </tr>
+    </table>
+    </div>
+  </div>
+    <div id="productarea" >
+    <div class="aside">
+        <div><h4 id="prodtitle" style="margin-left: 30px;">Product lists</h4></div>
+        <div>
+            <div class="buttonflex">
+                <button class="export"><img src="icons/icons8-upload-50.png" alt="">Export</button>
+                <button class="add">+ Add product</button>
+
+            </div>
+           
+        </div>
+    </div>
+    <div id="addproductbody">
+        <form >
+
+            <label for="title">
+                Product title
+            </label>
+            <br>
+            <input type="text" placeholder="Enter the product name" id="productname" required>
+            <br>
+            <br>
+            <br>
+            <label for="description">
+                Product description
+            </label>
+            <br>
+            <textarea name="textarea" id="description" cols="30" rows="5" placeholder="Enter the product information" required></textarea>
+          <br>
+          <br>
+          <label for="images">
+            Product images
+          </label>
+          <br>
+            <div id="images">
+            <div class="imagebox">
+                <img src="icons/icons8-upload-50.png" alt="" style="width: 100%;height:100%;" id="open">
+                <input type="file" name="file" id="file"  accept="images/*" style="display: none;" multiple required>
+            </div>
+          </div>
+
+
+          <div class="asideprod">
+            <div>
+                <br>
+                <label for="price">
+                    Product price
+                </label>
+                <br>
+                <input type="number" name="price" id="price" placeholder="Enter the product price">
+            </div>
+            <div>
+                <br>
+                <label for="choice">
+                    Product category
+                </label>
+                <br>
+                <select name="select" id="select" style="padding: 4px 16px;" class="select">
+                    <option value="shoe">shoe</option>
+                    <option value="clothes">clothes</option>
+                    <option value="laptop">laptop</option>
+                    <option value="foodstuff">foodstuff</option>
+                    <option value="phone">phone</option>
+                    <option value="Watch">Watch</option>
+                    <option value="bodylotion">bodylotion</option>
+                    <option value="bag">bag</option>
+                </select>
+            </div>
+          </div>
+          <br>
+<input type="checkbox" name="cjeckbox" id="checkbox"> <label for="agree" style="color: rgb(76, 76, 170); margin-left: 8px;font-weight: 900;">Agree with Terms & Conditions</label>
+<div class="buttonarea">
+    <button class="addprod1" id="later" >Submit details</button>
+    <button class="addprod" id="any">Submit & save</button>
+
+</div>
+
+        </form>
+    </div>
+    <div id="productbody">
+     <div class="productbodyhead">
+        <input type="text"  placeholder="Search for any product">
+        <select name="select" id="select">
+            <option value="shoe">shoe</option>
+            <option value="laptop">laptop</option>
+            <option value="clothes">clothes</option>
+            <option value="foodstuff">foodstuff</option>
+            <option value="phones">phones</option>
+            <option value="bodylotions">bodylotions</option>
+        </select>
+        
+     </div>
+<hr>
+
+<div id="proditemsarea">
+   
+
+
+</div>
+    </div>
+
+    </div>
+</div>
+    </div>
+    <script src="./js/chart.js"></script>
+    <script src="./js/orders.js"></script>
+    <script src="./js/transaction.js"></script>
+    <script src="./js/sellers.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/showchart.js"></script>
+    
+</body>
+</html>

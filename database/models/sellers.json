@@ -1,0 +1,62 @@
+[
+    {
+        "firstname": "ken",
+        "lasttname": "onyama",
+        "sellerlocation": "oyugis",
+        "phonenumber": "0789543627",
+        "address": "migor",
+        "gender": "Male",
+        "email": "onyamaken@gmail.com",
+        "sellerID": "sellerf160442e-8578-4a96-9fae-4facfe50e30e"
+    },
+    {
+        "firstname": "benard",
+        "lasttname": "jackson",
+        "sellerlocation": "lulu",
+        "phonenumber": "0734578649",
+        "address": "kona",
+        "gender": "Male",
+        "email": "jackson@gmail.com",
+        "sellerID": "seller71ba3c0e-db0f-4eda-9cfa-fba8937ad328"
+    },
+    {
+        "firstname": "mark ",
+        "lasttname": "wafula",
+        "sellerlocation": "bumala",
+        "phonenumber": "07456382746",
+        "address": "bungoma",
+        "gender": "Male",
+        "email": "wafulamark@gmail.com",
+        "sellerID": "seller104d3c9d-ce4e-49be-bb29-5b050f80bcac"
+    },
+    {
+        "firstname": "mose",
+        "lasttname": "juma",
+        "sellerlocation": "olivu",
+        "phonenumber": "0704357823",
+        "address": "kome",
+        "gender": "Male",
+        "email": "mose@gmail.com",
+        "sellerID": "seller08595e1a-6848-4939-aa04-4b9aefda3479"
+    },
+    {
+        "firstname": "kennedy",
+        "lasttname": "jamaa",
+        "sellerlocation": "kaimosi",
+        "phonenumber": "0765451278",
+        "address": "mora",
+        "gender": "Male",
+        "email": "jammaa@gmail.com",
+        "sellerID": "seller5413a3ec-5730-4ec1-bd73-7a58a867ac75"
+    },
+    {
+        "firstname": "james",
+        "lasttname": "pewter",
+        "sellerlocation": "likoni",
+        "phonenumber": "072345666",
+        "address": "ukunda",
+        "gender": "Male",
+        "email": "peter@gmail.com",
+        "sellerID": "sellerd06006b4-2773-4f8a-a443-6cf047a7e585"
+    }
+]

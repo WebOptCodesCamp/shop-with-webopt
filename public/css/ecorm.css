@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    overflow: hidden;
+    position: relative;
+}
+
+header{
+    background: whitesmoke;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+header div h4{
+    color: grey;
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.area{
+    width: 100%;
+    display: flex;
+}
+
+.content{
+    height: 100%;
+    width: 75%;
+    
+    
+
+
+
+}
+.cartitem{
+    width: 25%;
+    height: 100%;
+    background: white;
+}
+
+#home{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.carticon{
+    width: 40px;
+    height: 40px;
+}
+
+.amout{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: red;
+}
+
+
+
+.swiper{
+    width: 100%;
+    height: 200px;
+}
+
+.swiper img{
+    width:80%;
+    height: 100%;
+    border-radius: 12px;
+    margin: 0px 10%;
+}
+
+.producthead{
+    margin-top: 30px;
+    text-align: center;
+}
+#homeproductlist{
+    width: 100%;
+    padding-top: 20px;
+    height:400px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    
+}
+#homeproductlist::-webkit-scrollbar{
+    display: none;
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    background: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border:2px solid lightgray;
+}
+
+.card-thumb{
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-name{
+    margin-left: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+.card-price{
+    color: red;
+    font-family: monospace;
+    margin-left: 18px;
+}
+.card-price span{
+    color: blue;
+}
+
+.star{
+    width: 15px;
+    height: 15px;
+    margin: 20px 20px;
+}
+
+.card-aside{
+    display: flex;
+    margin-left: 30px;
+    
+    
+    
+}
+
+.card-btn{
+    border: 4px solid black;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 12px;
+    margin-left: 25%;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 12px;
+
+}
+
+#mycart{
+    text-align: center;
+    margin-top: 30px;
+    color: green;
+}
+
+#mycart span{
+    color: yellow;
+} 
+
+#fillcart{
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.makecart{
+    display: flex;
+    width: 90%;
+    margin: 8px 5%;
+
+
+}
+
+.makecart div{
+    margin-left: 20px;
+}
+.makecart div img{
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.makecart div h4{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.price-val{
+    color: blue;
+    font-family: monospace;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+.price-val span{
+    color: red;
+}
+
+#category,#related,#payment,#status{
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+    display: none;
+}
+
+.lookcategory{
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(26, 26, 83);
+}
+
+.shoe-txt{
+    margin-left: 30px;
+    margin-top: 25px;
+    color: green;
+    
+}
+
+#shoearea,#bagarea{
+    width: 80%;
+    margin: 12px 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#selectprod{
+    width: 100%;
+    padding-top: 12%;
+    display: flex;
+    padding-left: 15%;
+}
+
+#selectprod div div img{
+width: 200px;
+height: 150px;
+border-radius: 12px;
+}
+
+#selectprod div div{
+    margin-left: 20px;
+}
+
+.moreinfo{
+    color: rgb(39, 39, 197);
+    font-family: monospace;
+    margin-top: 25px;
+}
+.sltflt{
+    display: flex;
+}
+
+.orangebtn{
+    background: orange;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.rlp{
+    margin-left: 40px;
+    margin-top: 50px;
+    color: tomato;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+#relatedlist{
+    width: 90%;
+    margin: 30px 5%;
+    height: 400px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+}
+#relatedlist::-webkit-scrollbar{
+    display: none;
+}
+
+.purchaseicon{
+    width: 30px;
+    height: 30px;
+    background: green;
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    display: none;
+}
+
+#payment h4{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: monospace;
+}
+
+#sellersselect{
+    width: 98%;
+    display: flex;
+    margin-top: 20px;
+    margin: 15px 1%;
+
+}
+#sellersselect::-webkit-scrollbar{
+    display: none;
+
+
+}
+
+.con-box{
+    width: 300px;
+    height: 140px;
+    background: whitesmoke;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    padding: 12px;
+    cursor: pointer;
+}
+.con-box h5{
+    color: blue;
+    font-family: monospace;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+.con-box h5 span{
+    color: black;
+}
+#customername,#customerphone,#customerlocation,#customerselect,#customeremail{
+    width: 230px;
+    border: 1px solid lightgray;
+    padding: 6px 16px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 100;
+}
+#customerselect{
+    width: 268px;
+}
+
+.flexall{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.firstdiv{
+    width: 35%;
+    height: 250px;
+    
+}
+.invoice-txt{
+    text-align: center;
+}
+#invoicebody{
+    width: 400px;
+    background: lightgray;
+    border-radius: 12px;
+    height: 400px;
+    margin-left: 10%;
+}
+
+.secdiv{
+    width: 65%;
+    height: 200px;
+    
+}
+
+.secdiv div{
+    margin-left: 200px;
+    margin-top: 12px;
+}
+
+table{
+    border-collapse: collapse;
+}
+th{
+    padding: 4px 16px;
+    background: lightgray;
+    color: white;
+}
+
+.showtotal{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-style: bold;
+}
+
+.showtotal span{
+    font-style: italic;
+    color: red;
+}
+
+.payby{
+    text-align: center;
+    margin-top: 40px;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.mpesa{
+    width: 120px;
+    height: 140px;
+    margin-right: 20px;
+}
+
+.sideplat{
+display: flex;
+justify-content: space-between;
+}
+
+.modend{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 20px;
+}
+.modend select{
+    margin-right: 30px;
+    padding: 4px 16px;
+    outline: none;
+}
+
+#paynows{
+    color: white;
+    padding: 4px 16px;
+    background: rgb(34, 131, 34);
+    border-radius: 5px;
+    border: 4px solid rgb(34, 131, 34);
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+
+.order-txt{
+    font-size: 18px;
+    color: blue;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+#phonetxt{
+    width: 230px;
+    padding: 4px 16px;
+    outline: none;
+    border: 1px solid lightgray;
+    margin: 30px 50px;
+
+}
+
+.search-btn{
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 16px;
+    border: 2px solid blue;
+}
+
+#tablearea{
+    width: 100%;
+    padding: 4% 6%;
+    display: flex;
+    flex-direction: column;
+}

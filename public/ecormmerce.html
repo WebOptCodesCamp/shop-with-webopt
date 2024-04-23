@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start shopping || New Offers</title>
+</head>
+<link rel="stylesheet" href="./css/ecorm.css">
+<body>
+    <div class="main">
+
+        <header>
+           <div style="margin-left: 20px;" onclick="showhome()">
+            <h4>Home</h4></div> 
+           <div onclick="showcategory()"><h4>Category</h4></div>
+           <div><h4>Related</h4></div>
+           <div onclick="makepayment()"><h4>Payment</h4></div>
+           <div style="margin-right: 20px;" onclick="showstatus()"><h4>Status</h4> </div>
+        </header>
+        <hr>
+<div class="purchaseicon">
+
+</div>
+        <div class="area">
+            <div class="content">
+                <div id="status">
+                    <h1 class="order-txt">Order status</h1>
+                    <input type="text" placeholder="Enter your phone number" id="phonetxt">
+                    <button class="search-btn">search</button>
+                    <div id="tablearea">
+
+                        <div id="givetable">
+
+                            <table>
+                                <th>Productname</th>
+                                <th>Productprice</th>
+                                <th>Quantity</th>
+                                <th>Date of Purchase</th>
+                                <th>Mode of Payment</th>
+                                <th>Seller</th>
+                                <th>Status</th>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id="payment">
+                    <h4>Choose Agent who will deliver your products
+                    </h4>
+                    <div id="sellersselect">
+
+                    </div>
+                    <div class="flexall">
+
+                        <div class="firstdiv">
+                            <form >
+
+                                <input type="text" placeholder="Enter your name" id="customername">
+                                <br>
+                                <input type="text" placeholder="Enter your  phone number" id="customerphone">
+                                <br>
+                                <input type="email" placeholder="Enter your  email address" id="customeremail">
+                                <br>
+                                <input type="text" placeholder="Enter the name of your location" id="customerlocation">
+                                <br>
+                                <select name="slt" id="customerselect">
+
+                                </select>
+                            </form>
+
+                        </div>
+                        <div class="secdiv">
+                            <h4 class="invoice-txt">**Your cart list**</h4>
+                            <div>
+                                <table id="tb">
+                                    <tr>
+                                        <th>Item-name</th>
+                                        <th>Item-price</th>
+                                        <th>Item-quantity</th>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <h4 class="showtotal">Your total price is ksh: <span id="mytot">0.00 </span></h4>
+                            <h4 class="payby">Pay by Mpesa <span style="color: brown;">/ Equity</span></h4>
+                            <div class="sideplat">
+                                <img src="./images/512px-M-PESA_LOGO-01.svg.png" alt="" class="mpesa" style="margin-bottom: 20px;">
+                                <img src="./images/equity-bank-logo.png" alt="" class="mpesa" style="width: 80px; height: 60px;margin-top: 24px;">
+
+                            </div>
+                           <div class="modend">
+                            <select name="" id="mode">
+                                <option value="Mpesa">Mpesa</option>
+                                <option value="Equity">Equity</option>
+                            </select>
+                           </div>
+
+                           <button id="paynows">Make payment</button>
+                           
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+                <div id="related">
+                    <div id="selectprod">
+                       
+                    </div>
+                    <h5 class="rlp">Related Products</h5>
+                    <div id="relatedlist">
+                        
+                    </div>
+                </div>
+                <div id="category">
+                    <h4 class="lookcategory">
+                        Best Categories for you
+                    </h4>
+
+                    <h3 class="shoe-txt">Nice Electronics  for you</h3>
+                    <div id="shoearea">
+
+                    </div>
+
+                    <h3 class="shoe-txt">Nice bags  for you</h3>
+                    <div id="bagarea">
+
+                    </div>
+
+
+                </div>
+                <div id="home">
+                    <div class="swiper">
+                        <img src="images/blog-1.jpg" alt="" >
+                    </div>
+                    <h4 class="producthead">All Products</h4>
+                    <div id="homeproductlist">
+
+                    </div>
+
+
+                </div>
+       
+
+            </div>
+            <div class="cartitem" >
+                <h4 id="mycart">My <span>cart</span></h4>
+                <div class="card-aside">
+                    <img src="images/car.png" alt="" class="carticon" onclick="filterout(cart)">
+
+                    <p class="amout">0</p>
+                </div>
+
+  <hr class="line">
+                <div class="fillcart" id="fillcart">
+                    
+                </div>
+                
+            
+            </div>
+            
+        </div>
+    </div>
+    <script src="./js/status.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/ecodata.js"></script>
+    
+</body>
+</html>

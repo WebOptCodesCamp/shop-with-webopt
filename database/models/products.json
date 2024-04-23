@@ -1,0 +1,223 @@
+[
+    {
+        "title": "Hp Smart Monitor",
+        "info": " it is a wide curved hp smart monitor with 120 \" inch screen , it has a higher refresh rate , can hold up to 1200 apps, it has a ram size of 6GB and storage of 456GB",
+        "choice": "laptop",
+        "cost": "21000",
+        "url": [
+            "photomadebyoparero0a209cdf-9992-424e-b11b-421b7f969004save.png"
+        ],
+        "productID": "item-noef80149d-5e6b-42ca-b962-77828c5ddaab"
+    },
+    {
+        "title": "Nokia C22",
+        "info": " it is a brand new phone that  was shipped from china , it has 6.5\" inch screen , has storage of 64GB, ram of 4GB , has 678MP camera",
+        "choice": "phone",
+        "cost": "18500",
+        "url": [
+            "photomadebyoparero0b6ce269-ffaa-4f7b-90f0-c48bbcba0dfasave.png"
+        ],
+        "productID": "item-nod83f8286-d8a6-4fb3-8827-5c34124eced8"
+    },
+    {
+        "title": "Hand bag",
+        "info": " it is a black hand bag which can be used by women to carry their things, the bag is made up of a leather material",
+        "choice": "bag",
+        "cost": "1500",
+        "url": [
+            "photomadebyoparero374a4656-0694-47ab-b814-7c57a2ba42a7save.png"
+        ],
+        "productID": "item-nof81eca69-5b76-4839-8420-38a085caf1cf"
+    },
+    {
+        "title": "Nyota cooking oil",
+        "info": "  it is a nice and smooth cooking oil , it can be used to prepare chapati, pizza, pilau and other edible vegetables",
+        "choice": "foodstuff",
+        "cost": "450",
+        "url": [
+            "photomadebyoparero2f0a88ad-69e2-4315-9cbd-12706a33c11asave.png"
+        ],
+        "productID": "item-no0967bd47-a8f8-47a0-b1aa-9a9ad6e74e22"
+    },
+    {
+        "title": "Nazi oil",
+        "info": " it is a yellowish oil which smoothens the skin and makes it attractive",
+        "choice": "bodylotion",
+        "cost": "85",
+        "url": [
+            "photomadebyoparerof2f8965d-5036-4cb5-8189-e5e6c4b52ee7save.png"
+        ],
+        "productID": "item-no80753229-a998-4ca6-9036-e03c34ae8dc7"
+    },
+    {
+        "title": " Black-Tshirt",
+        "info": " it is a light t-shirt which can be wared by both men and women,  ",
+        "choice": "clothes",
+        "cost": "300",
+        "url": [
+            "photomadebyoparero611600a8-f0df-4bba-869a-eed4397fd507save.png"
+        ],
+        "productID": "item-no3cc936fa-d313-4cc6-812a-0a266bb532a0"
+    },
+    {
+        "title": "Red nike shoe",
+        "info": " it is a red Nike sport shoe , which is best for playing football , basketball, it has a strong sole ",
+        "choice": "shoe",
+        "cost": "420",
+        "url": [
+            "photomadebyoparero4a9f402d-45b8-40f0-99d2-db43643c4d54save.png"
+        ],
+        "productID": "item-no97bc646c-48c9-4b0e-8be3-cade27e1c0c6"
+    },
+    {
+        "title": " Infinix mobile pro",
+        "info": " it has 10\" inch screen , has higher resolutions rates, has storage of 120GB , ram of 6GB ",
+        "choice": "phone",
+        "cost": "32456",
+        "url": [
+            "photomadebyoparero584f7881-f357-4311-9248-210f2c10af4fsave.png"
+        ],
+        "productID": "item-no92cffe46-7dda-4440-948b-394126215969"
+    },
+    {
+        "title": " HP laptop bag",
+        "info": "  it is a cool grey leather bag , it has four zips , it can carry both books and laptops , phones & etc.",
+        "choice": "bag",
+        "cost": "759",
+        "url": [
+            "photomadebyopareroc8c18706-c9d9-4e4d-b7db-b570171c2dffsave.png"
+        ],
+        "productID": "item-no302d60b0-953f-4576-8df0-d60855e5d4c8"
+    },
+    {
+        "title": " Chicken Royco",
+        "info": " it adds a very delicious flavor to your food , it can be used to prepare beef stew, Sukuma, cabbage,beans,chicken",
+        "choice": "foodstuff",
+        "cost": "10",
+        "url": [
+            "photomadebyoparero1b9c55fc-7f50-4d92-95fb-9ae2885d9fe0save.png"
+        ],
+        "productID": "item-noe7054999-f8a4-405d-9798-6bec9bda6094"
+    },
+    {
+        "title": "Cooking flour",
+        "info": "     Dola  is the best cooking flour used to prepare pizza ,cakes , mandazi, bread,doughnuts",
+        "choice": "foodstuff",
+        "cost": "100",
+        "url": [
+            "photomadebyoparero76e519f5-20c8-4ac9-9769-abbe2440137bsave.png"
+        ],
+        "productID": "item-nod41ac5d6-7981-47a5-90a6-8676f6045f2d"
+    },
+    {
+        "title": "Bryan Rice",
+        "info": "    it is a nice rice which is used to prepare pilau , bryan,",
+        "choice": "foodstuff",
+        "cost": "349",
+        "url": [
+            "photomadebyoparero8269a994-90d2-456e-b70e-cbbb3c66b701save.png"
+        ],
+        "productID": "item-no4e02d6d6-5117-418b-8804-3e04bd8bfbc1"
+    },
+    {
+        "title": " Dell laptop bag",
+        "info": "   it is a black leather bag which can carry both books, laptop, and also comes with a charger for charging phones and laptops, it has six zips",
+        "choice": "bag",
+        "cost": "1089",
+        "url": [
+            "photomadebyoparerof6696da7-3b87-41fc-9ca1-6e56505260f1save.png"
+        ],
+        "productID": "item-no96440ce9-9d15-4d2e-b20d-d1e4679998f3"
+    },
+    {
+        "title": "Hp laptop",
+        "info": "  it is a cool laptop shipped from japan , it has 12.7\" inch screen , with storage of 567GB and ram of 6GB",
+        "choice": "laptop",
+        "cost": "23455",
+        "url": [
+            "photomadebyoparero1481a860-f916-48c1-938c-a6c8cd2cb6a9save.png"
+        ],
+        "productID": "item-noce9b302a-2038-4bb3-bfd3-9bdf548b9801"
+    },
+    {
+        "title": "Nokia C10",
+        "info": " it is the oldest phone in the market , it has 6.2\" inch screen , with storage of 8GB , ram of 1GB ",
+        "choice": "phone",
+        "cost": "8000",
+        "url": [
+            "photomadebyoparero3d0d042b-4de6-4d25-829f-2ffc00531274save.png"
+        ],
+        "productID": "item-no23efcdeb-2438-41e3-83b1-b9786b2f4e86"
+    },
+    {
+        "title": "Samsung Ao4E",
+        "info": " it is cool phone with 6.5\" inch screen,\nhas a storage of 32GB , ram size of 2GB",
+        "choice": "phone",
+        "cost": "21999",
+        "url": [
+            "photomadebyoparero2f05c79d-4b58-4cd2-86e8-29caf24f336bsave.png"
+        ],
+        "productID": "item-no7aa6f306-9d73-46d1-bf71-36f1a3857dda"
+    },
+    {
+        "title": " Ipad Pro",
+        "info": "  it was imported from Germany , it has a storage of 400GB , with ram size of 12GB",
+        "choice": "phone",
+        "cost": "80454",
+        "url": [
+            "photomadebyoparero591b4b70-6f83-4914-bf9e-3147f153e844save.png"
+        ],
+        "productID": "item-no79d48020-fee9-481d-8ce9-1b22610bb370"
+    },
+    {
+        "title": " Dell Laptop",
+        "info": "it has 12.5\" inch screen , with higher refresh rates , has storage of 789GB , with ram of 8GB",
+        "choice": "laptop",
+        "cost": "26958",
+        "url": [
+            "photomadebyoparerod87989d9-553f-4f1b-bc06-23c35594cd43save.png"
+        ],
+        "productID": "item-noc97921fb-951e-4109-8958-ec9819401e54"
+    },
+    {
+        "title": "Asus",
+        "info": " it has a wide screen of 15.8\" inch , has a higher refresh rates , has  a storage of 600GB with ram size of 4GB",
+        "choice": "laptop",
+        "cost": "34599",
+        "url": [
+            "photomadebyopareroa878f8c5-1c4c-4f7a-9e2e-f1d2365cbe00save.png"
+        ],
+        "productID": "item-nocab5144b-6e84-41cc-8d0d-db9046065b93"
+    },
+    {
+        "title": " lady shoe",
+        "info": " it is pink shoe ",
+        "choice": "shoe",
+        "cost": "700",
+        "url": [
+            "photomadebyoparero419e105f-d3d6-495c-9cd8-1c7eb5c77158save.png"
+        ],
+        "productID": "item-no39db1990-fa12-465b-8e27-a4e5fdb41696"
+    },
+    {
+        "title": "smart watch",
+        "info": " shipped from japan , has 3.5\" inch screen , can hold up to 300 apps , has a storage of 20GB , ram of2GB",
+        "choice": "Watch",
+        "cost": "2500",
+        "url": [
+            "photomadebyoparero2785e782-44f6-4a2f-94f8-9a33a5cc0d38save.png"
+        ],
+        "productID": "item-nof029522c-960b-451a-9ff2-041250641f28"
+    },
+    {
+        "title": "just a test",
+        "info": " dffggf",
+        "choice": "shoe",
+        "cost": "500",
+        "url": [
+            "photomadebyoparero264c45fa-880d-4361-b02e-0959579a9233save.png",
+            "photomadebyoparero3c58f20c-4679-45d2-a3b1-76d823670a83save.png"
+        ],
+        "productID": "item-noe81e9154-49ac-4552-ab4c-b450b6e0d215"
+    }
+]

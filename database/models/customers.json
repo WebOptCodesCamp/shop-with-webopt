@@ -1,0 +1,233 @@
+[
+    {
+        "customername": "Elisha Okiru",
+        "customerlocation": "ukunda",
+        "customerphone": "0716125507",
+        "customeroption": "benard jackson",
+        "mode": "Equity",
+        "orders": [
+            {
+                "ele": 15,
+                "quantity": 2
+            },
+            {
+                "ele": 7,
+                "quantity": 2
+            },
+            {
+                "ele": 8,
+                "quantity": 3
+            },
+            {
+                "ele": 18,
+                "quantity": 3
+            }
+        ],
+        "email": "okiruelisha@gmail.com",
+        "fulldate": "3/7/2024",
+        "day": "Thu",
+        "year": 2024,
+        "date": 7,
+        "time": "17:15PM",
+        "monthname": "March",
+        "status": "Delivered"
+    },
+    {
+        "customername": "Joseph oparero",
+        "customerlocation": "kaybe",
+        "customerphone": "0717371601",
+        "customeroption": "ken onyama",
+        "mode": "Mpesa",
+        "orders": [
+            {
+                "ele": 6,
+                "quantity": 4
+            },
+            {
+                "ele": 8,
+                "quantity": 4
+            },
+            {
+                "ele": 13,
+                "quantity": 2
+            }
+        ],
+        "email": "oparerojoseph@gmail.com",
+        "fulldate": "3/7/2024",
+        "day": "Thu",
+        "year": 2024,
+        "date": 7,
+        "time": "17:22PM",
+        "monthname": "March",
+        "status": "Cancelled"
+    },
+    {
+        "customername": "Mary achieng",
+        "customerlocation": "kisii",
+        "customerphone": "0745367659",
+        "customeroption": "ken onyama",
+        "mode": "Equity",
+        "orders": [
+            {
+                "ele": 21,
+                "quantity": 1
+            },
+            {
+                "ele": 18,
+                "quantity": 4
+            }
+        ],
+        "email": "achiengmary@gmail.com",
+        "fulldate": "3/8/2024",
+        "day": "Fri",
+        "year": 2024,
+        "date": 8,
+        "time": "11:0AM",
+        "monthname": "March",
+        "status": "Delivered"
+    },
+    {
+        "customername": "Merrlyne shop",
+        "customerlocation": "kamuo",
+        "customerphone": "0794356789",
+        "customeroption": "ken onyama",
+        "mode": "Mpesa",
+        "orders": [
+            {
+                "ele": 7,
+                "quantity": 6
+            },
+            {
+                "ele": 1,
+                "quantity": 5
+            },
+            {
+                "ele": 13,
+                "quantity": 12
+            },
+            {
+                "ele": 17,
+                "quantity": 6
+            },
+            {
+                "ele": 18,
+                "quantity": 6
+            },
+            {
+                "ele": 20,
+                "quantity": 20
+            }
+        ],
+        "email": "Merrlyneshp@gmail.com",
+        "fulldate": "3/25/2024",
+        "day": "Mon",
+        "year": 2024,
+        "date": 25,
+        "time": "16:56PM",
+        "monthname": "March",
+        "status": "Under verification"
+    },
+    {
+        "customername": "Nashon nyachobu",
+        "customerlocation": "Nyagoge",
+        "customerphone": "0704457780",
+        "customeroption": "ken onyama",
+        "mode": "Equity",
+        "orders": [
+            {
+                "ele": 3,
+                "quantity": 50
+            },
+            {
+                "ele": 4,
+                "quantity": 12
+            },
+            {
+                "ele": 9,
+                "quantity": 20
+            },
+            {
+                "ele": 10,
+                "quantity": 100
+            },
+            {
+                "ele": 11,
+                "quantity": 50
+            }
+        ],
+        "email": "nyachobunashon@gmail.com",
+        "fulldate": "3/25/2024",
+        "day": "Mon",
+        "year": 2024,
+        "date": 25,
+        "time": "17:4PM",
+        "monthname": "March",
+        "status": "Cancelled"
+    },
+    {
+        "customername": "Nashon nyachobu",
+        "customerlocation": "Nyagoge",
+        "customerphone": "0704457780",
+        "customeroption": "ken onyama",
+        "mode": "Equity",
+        "orders": [
+            {
+                "ele": 3,
+                "quantity": 50
+            },
+            {
+                "ele": 4,
+                "quantity": 12
+            },
+            {
+                "ele": 9,
+                "quantity": 20
+            },
+            {
+                "ele": 10,
+                "quantity": 100
+            },
+            {
+                "ele": 11,
+                "quantity": 50
+            }
+        ],
+        "email": "nyachobunashon@gmail.com",
+        "fulldate": "3/25/2024",
+        "day": "Mon",
+        "year": 2024,
+        "date": 25,
+        "time": "17:4PM",
+        "monthname": "March",
+        "status": "Transported"
+    },
+    {
+        "customername": "jonnes Tech",
+        "customerlocation": "koburo",
+        "customerphone": "0799785643",
+        "customeroption": "ken onyama",
+        "mode": "Equity",
+        "orders": [
+            {
+                "ele": 0,
+                "quantity": 8
+            },
+            {
+                "ele": 8,
+                "quantity": 1
+            },
+            {
+                "ele": 17,
+                "quantity": 1
+            }
+        ],
+        "email": "techjonnes@gmail.com",
+        "fulldate": "4/8/2024",
+        "day": "Mon",
+        "year": 2024,
+        "date": 8,
+        "time": "17:23PM",
+        "monthname": "April",
+        "status": "Under verification"
+    }
+]
